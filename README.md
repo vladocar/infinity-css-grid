@@ -8,7 +8,7 @@
 
 <hr/>
 
-<p> Infinity CSS Grid is around 0,1 Kb CSS for making any number of rows. </p>
+<p> Infinity CSS Grid is around 0,15 Kb CSS for making any number of rows. </p>
 
 <p> Just add any number of .row in the .column: </p>
 
