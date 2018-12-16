@@ -1,3 +1,5 @@
+[![Gzip Size](https://img.badgesize.io/https://unpkg.com/infinity-css-grid@1.0.1/grid.min.css?compression=gzip)](https://unpkg.com/infinity-css-grid@1.0.1/grid.min.css)
+
 <p align="center"><img src="logo.png" /></p>
 
 <h1 align="center"> Infinity CSS Grid </h1>
