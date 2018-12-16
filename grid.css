@@ -1,0 +1,13 @@
+.column{display: flex; flex-flow: row wrap}
+
+.row{flex:1}
+
+.merge2{flex:2}
+.merge3{flex:3}
+.merge4{flex:4}
+/* add more .merge classes if you need to */
+
+.row,.merge2,.merge3,.merge4 {margin:0 8px} /* optional gutter */
+
+
+.nested{padding:0 !important; margin:0 !important; border: 0 !important}

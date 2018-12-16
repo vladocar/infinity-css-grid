@@ -1,0 +1,27 @@
+{
+  "name": "infinity-css-grid",
+  "version": "1.0.1",
+  "description": "Ultra minimal fluid Flex Grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladocar/infinity-css-grid.git"
+  },
+  "keywords": [
+    "css",
+    "html",
+    "flex",
+    "css-layout",
+    "css-grid",
+    "css-framework"
+  ],
+  "author": "Vladimir Carrer <vladocar@gmail.com> (http://www.vcarrer.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladocar/infinity-css-grid/issues"
+  },
+  "homepage": "https://github.com/vladocar/infinity-css-grid#readme"
+}

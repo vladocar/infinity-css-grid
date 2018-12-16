@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="grid.css">
+
+    <title>Infinity CSS Grid</title>
+    <style>
+        * {box-sizing: border-box}
+
+        body {
+            margin: 0;
+            font-size: 17px;
+            background-color: #333;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        h1 {
+            font-size: 32px;
+            font-family: "HelveticaNeueThin", "HelveticaNeue-Thin", "Helvetica Neue Thin", Arial, sans-serif;
+            font-weight: 200;
+            font-stretch: normal;
+
+        }
+        a {color:#fff}
+
+        #main{
+          margin: 0 auto; width: 80%; padding: 8px;
+          background-color: #fff;
+        }
+
+
+
+
+        .row,.merge2,.merge3 {
+
+            color: #fff;
+            background-color: #00bbeb;
+            padding: 15px;
+            margin: 10px 8px 10px 8px;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+
+<div id="main">
+        <div class="column">
+          <div class="row" style="border:0; background:none" ><img src="infinity.svg" style="width:600px" /></div>
+        </div>
+
+        <div class="column">
+        <div class="row"> <h1>Infinity CSS Grid</h1></div>
+        </div>
+
+        <div class="column">
+        <div class="row"> <p> Fluid Flex Solution for making infinite grid rows.</p></div>
+        </div>
+
+        <div class="column">
+        <div class="row">50%</div>
+        <div class="row">50%</div>
+        </div>
+
+        <div class="column">
+        <div class="row">33,3%</div>
+        <div class="row">33,3%</div>
+        <div class="row">33,3%</div>
+        </div>
+
+        <div class="column">
+        <div class="row">25%</div>
+        <div class="row">25%</div>
+        <div class="row">25%</div>
+        <div class="row">25%</div>
+        </div>
+
+        <div class="column">
+        <div class="row">20%</div>
+        <div class="row">20%</div>
+        <div class="row">20%</div>
+        <div class="row">20%</div>
+        <div class="row">20%</div>
+        </div>
+
+        <div class="column">
+        <div class="row">16,66%</div>
+        <div class="row">16,66%</div>
+        <div class="row">16,66%</div>
+        <div class="row">16,66%</div>
+        <div class="row">16,66%</div>
+        <div class="row">16,66%</div>
+        </div>
+
+        <div class="column">
+        <div class="row">12,5%</div>
+        <div class="row">12,5%</div>
+        <div class="row">12,5%</div>
+        <div class="row">12,5%</div>
+        <div class="row">12,5%</div>
+        <div class="row">12,5%</div>
+        <div class="row">12,5%</div>
+        <div class="row">12,5%</div>
+        </div>
+
+
+        <div class="column">
+        <div class="row">1</div>
+        <div class="row">1</div>
+        <div class="row">1</div>
+        <div class="merge3">Merge 3</div>
+        <div class="row">1</div>
+        <div class="row">1</div>
+        <div class="merge2">Merge 2</div>
+        <div class="row">1</div>
+        </div>
+
+        <div class="column">
+        <div class="merge3">Merge 3 (take 3 places)</div>
+        <div class="row">1</div>
+        <div class="row">1</div>
+        <div class="row">1</div>
+        </div>
+
+        <div class="column">
+        <div class="merge4 nested column">
+          <div class="row">Nested </div>
+          <div class="row">Nested </div>
+          <div class="row">Nested  </div>
+        </div>
+        <div class="row">1</div>
+
+        </div>
+
+        <div class="column">
+        <div class="row">Ultra minimal only 0.1 Kb</div>
+        <div class="row">Fluid</div>
+        <div class="row">Just add rows into the column container </div>
+        </div>
+
+        <div class="column">
+        <div class="row"><p>You can add as many rows as you like. You can merge the rows or insert rows inside rows. Everything is 0.1 Kb and even works in IE10.</p></div>
+        </div>
+
+        <div class="column">
+        <div class="row"><p><a href="">Learn more on Github </a></p></div>
+        </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
