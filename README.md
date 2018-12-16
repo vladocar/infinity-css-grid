@@ -42,6 +42,9 @@ $ npm i infinity-css-grid
 <link rel="stylesheet" href="https://unpkg.com/infinity-css-grid@1.0.1/grid.css">
 ```
 
+<h3>Demo:</h3>
+
+https://vladocar.github.io/infinity-css-grid/
 
 <h3>License</h3>
 
