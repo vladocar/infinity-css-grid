@@ -29,6 +29,9 @@
 
 .row{flex:1}
 ```
+
+You can make tests here: https://vladocar.github.io/infinity-css-grid/demo1.html
+
 <h3>Installation </h3>
 
 <p>Just simply download the project or: </p>
