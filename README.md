@@ -8,26 +8,34 @@
 
 <hr/>
 
+<<<<<<< Updated upstream
 <p> Infinity CSS Grid is around 0,15 Kb CSS for making any number of rows. </p>
+=======
+<<<<<<< HEAD
+<p> Infinity CSS Grid is around 0,1 Kb CSS for making any number of columns. </p>
+=======
+<p> Infinity CSS Grid is around 0,15 Kb CSS for making any number of rows. </p>
+>>>>>>> FETCH_HEAD
+>>>>>>> Stashed changes
 
-<p> Just add any number of .row in the .column: </p>
+<p> Just add any number of .column in the .row: </p>
 
 ```html
 // For 3 rows:
 
-<div class="column">
-  <div class="row">1</div>
-  <div class="row">1</div>
-  <div class="row">1</div>
+<div class="row">
+  <div class="column">1</div>
+  <div class="column">1</div>
+  <div class="column">1</div>
 </div>
 ```
 
 <p>The CSS code is based on this: </p>
 
 ```css
-.column{display: flex; flex-flow: row wrap}
+.row{display: flex; flex-flow: row wrap}
 
-.row{flex:1}
+.column{flex:1}
 ```
 
 You can make tests here: https://vladocar.github.io/infinity-css-grid/demo1.html
@@ -42,7 +50,7 @@ $ npm i infinity-css-grid
 ```
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/infinity-css-grid@1.0.1/grid.css">
+<link rel="stylesheet" href="https://unpkg.com/infinity-css-grid@1.0.3/grid.css">
 ```
 
 <h3>Demo:</h3>

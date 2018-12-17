@@ -32,7 +32,7 @@
 
 
 
-        .row,.merge2,.merge3 {
+        .column,.merge2,.merge3 {
 
             color: #fff;
             background-color: #00bbeb;
@@ -49,105 +49,120 @@
 
 
 <div id="main">
-        <div class="column">
-          <div class="row" style="border:0; background:none" ><img src="infinity.svg" style="width:600px" /></div>
+        <div class="row">
+          <div class="column" style="border:0; background:none" ><img src="infinity.svg" style="width:600px" /></div>
+        </div>
+
+        <div class="row">
+        <div class="column"> <h1>Infinity CSS Grid</h1></div>
         </div>
 
         <div class="column">
-        <div class="row"> <h1>Infinity CSS Grid</h1></div>
+        <div class="column"> <p> Fluid Flex Solution for making infinite grid columns.</p></div>
         </div>
 
-        <div class="column">
-        <div class="row"> <p> Fluid Flex Solution for making infinite grid rows.</p></div>
+        <div class="row">
+        <div class="column">50%</div>
+        <div class="column">50%</div>
         </div>
 
-        <div class="column">
-        <div class="row">50%</div>
-        <div class="row">50%</div>
+        <div class="row">
+        <div class="column">33,3%</div>
+        <div class="column">33,3%</div>
+        <div class="column">33,3%</div>
         </div>
 
-        <div class="column">
-        <div class="row">33,3%</div>
-        <div class="row">33,3%</div>
-        <div class="row">33,3%</div>
+        <div class="row">
+        <div class="column">25%</div>
+        <div class="column">25%</div>
+        <div class="column">25%</div>
+        <div class="column">25%</div>
         </div>
 
-        <div class="column">
-        <div class="row">25%</div>
-        <div class="row">25%</div>
-        <div class="row">25%</div>
-        <div class="row">25%</div>
+        <div class="row">
+        <div class="column">20%</div>
+        <div class="column">20%</div>
+        <div class="column">20%</div>
+        <div class="column">20%</div>
+        <div class="column">20%</div>
         </div>
 
-        <div class="column">
-        <div class="row">20%</div>
-        <div class="row">20%</div>
-        <div class="row">20%</div>
-        <div class="row">20%</div>
-        <div class="row">20%</div>
+        <div class="row">
+        <div class="column">16,66%</div>
+        <div class="column">16,66%</div>
+        <div class="column">16,66%</div>
+        <div class="column">16,66%</div>
+        <div class="column">16,66%</div>
+        <div class="column">16,66%</div>
         </div>
 
-        <div class="column">
-        <div class="row">16,66%</div>
-        <div class="row">16,66%</div>
-        <div class="row">16,66%</div>
-        <div class="row">16,66%</div>
-        <div class="row">16,66%</div>
-        <div class="row">16,66%</div>
-        </div>
-
-        <div class="column">
-        <div class="row">12,5%</div>
-        <div class="row">12,5%</div>
-        <div class="row">12,5%</div>
-        <div class="row">12,5%</div>
-        <div class="row">12,5%</div>
-        <div class="row">12,5%</div>
-        <div class="row">12,5%</div>
-        <div class="row">12,5%</div>
+        <div class="row">
+        <div class="column">12,5%</div>
+        <div class="column">12,5%</div>
+        <div class="column">12,5%</div>
+        <div class="column">12,5%</div>
+        <div class="column">12,5%</div>
+        <div class="column">12,5%</div>
+        <div class="column">12,5%</div>
+        <div class="column">12,5%</div>
         </div>
 
 
-        <div class="column">
-        <div class="row">1</div>
-        <div class="row">1</div>
-        <div class="row">1</div>
+        <div class="row">
+        <div class="column">1</div>
+        <div class="column">1</div>
+        <div class="column">1</div>
         <div class="merge3">Merge 3</div>
-        <div class="row">1</div>
-        <div class="row">1</div>
+        <div class="column">1</div>
+        <div class="column">1</div>
         <div class="merge2">Merge 2</div>
-        <div class="row">1</div>
+        <div class="column">1</div>
         </div>
 
-        <div class="column">
+        <div class="row">
         <div class="merge3">Merge 3 (take 3 places)</div>
-        <div class="row">1</div>
-        <div class="row">1</div>
-        <div class="row">1</div>
+        <div class="column">1</div>
+        <div class="column">1</div>
+        <div class="column">1</div>
         </div>
 
-        <div class="column">
-        <div class="merge4 nested column">
-          <div class="row">Nested </div>
-          <div class="row">Nested </div>
-          <div class="row">Nested  </div>
+        <div class="row">
+        <div class="merge4 nested row">
+          <div class="column">Nested </div>
+          <div class="column">Nested </div>
+          <div class="column">Nested  </div>
         </div>
-        <div class="row">1</div>
+        <div class="column">1</div>
 
         </div>
 
+<<<<<<< HEAD
+        <div class="row">
+        <div class="column">Ultra minimal only 0.1 Kb</div>
+        <div class="column">Fluid</div>
+        <div class="column">Just add columns into the row container </div>
+=======
         <div class="column">
         <div class="row">Ultra minimal only 0.15 Kb</div>
         <div class="row">Fluid</div>
         <div class="row">Just add rows into the column container </div>
+>>>>>>> FETCH_HEAD
         </div>
 
-        <div class="column">
-        <div class="row"><p>You can add as many rows as you like. You can merge the rows or insert rows inside rows. Everything is 0.1 Kb and even works in IE10.</p></div>
+        <div class="row">
+        <div class="column"><p>You can add as many columns as you like. You can merge the columns or insert columns inside columns. Everything is 0.1 Kb and even works in IE10.</p></div>
         </div>
 
+<<<<<<< HEAD
+        <div class="row">
+        <div class="column"><p><a href="https://github.com/vladocar/infinity-css-grid/">Learn more on Github </a></p></div>
+=======
         <div class="column">
         <div class="row"><p><a href="https://github.com/vladocar/infinity-css-grid/">Learn more on Github </a></p></div>
+<<<<<<< Updated upstream
+=======
+>>>>>>> FETCH_HEAD
+>>>>>>> Stashed changes
         </div>
 
     </div>
