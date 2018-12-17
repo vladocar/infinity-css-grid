@@ -8,20 +8,14 @@
 
 <hr/>
 
-<<<<<<< Updated upstream
-<p> Infinity CSS Grid is around 0,15 Kb CSS for making any number of rows. </p>
-=======
-<<<<<<< HEAD
+
 <p> Infinity CSS Grid is around 0,1 Kb CSS for making any number of columns. </p>
-=======
-<p> Infinity CSS Grid is around 0,15 Kb CSS for making any number of rows. </p>
->>>>>>> FETCH_HEAD
->>>>>>> Stashed changes
+
 
 <p> Just add any number of .column in the .row: </p>
 
 ```html
-// For 3 rows:
+// For 3 columns:
 
 <div class="row">
   <div class="column">1</div>
