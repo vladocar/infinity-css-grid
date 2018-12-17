@@ -1,6 +1,6 @@
 {
   "name": "infinity-css-grid",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Ultra minimal fluid Flex Grid",
   "main": "index.js",
   "scripts": {
