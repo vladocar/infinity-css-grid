@@ -14,14 +14,14 @@
 
 
     		$("#a").css({backgroundColor:"green",color:"#fff"});
-        $('.column').value.pop().insertAdjacentHTML("beforeEnd",'<div class="row">New</div>');
+        $('.row').value.pop().insertAdjacentHTML("beforeEnd",'<div class="column">New</div>');
         $('ul').value.pop().insertAdjacentHTML("beforeEnd",'<li><code>&lt;div class=&quot;row&quot;&gt;New&lt;/div&gt;</code></li>')
 
     	})
       $("#b").on("click", function(){
 
 
-    		$('.row').value.pop().parentNode.removeChild($('.row').value.pop());
+    		$('.column').value.pop().parentNode.removeChild($('.column').value.pop());
         $('li').value.pop().parentNode.removeChild($('li').value.pop())
 
 
@@ -48,13 +48,13 @@
         }
 
 
-        .main,.column{display: flex; flex-flow: row wrap;  width: 960px; margin: 0 auto}
+        .main,.row{display: flex; flex-flow: row wrap;  width: 960px; margin: 0 auto}
 
-        .row,#a,#b{flex:1;}
+        .column,#a,#b{flex:1;}
 
         .clear{width: 100%}
 
-        .row,#a,#b {
+        .column,#a,#b {
             border: 1px solid #e56e6e;
             color: #1577ca;
             padding: 10px;
@@ -79,22 +79,22 @@
         <div id="b"> <h1>Remove</h1></div>
         <div class="clear"></div>
 
-        <div class="column">
-        <div class="row">Old</div>
-        <div class="row">Old</div>
-        <div class="row">Old</div>
-        <div class="row">Old</div>
-        <div class="row">Old</div>
+        <div class="row">
+        <div class="column">Old</div>
+        <div class="column">Old</div>
+        <div class="column">Old</div>
+        <div class="column">Old</div>
+        <div class="column">Old</div>
         </div>
 
 
 
 <ul>
-  <li><code>&lt;div class=&quot;row&quot;&gt;Old&lt;/div&gt;</code></li>
-  <li><code>&lt;div class=&quot;row&quot;&gt;Old&lt;/div&gt;</code></li>
-  <li><code>&lt;div class=&quot;row&quot;&gt;Old&lt;/div&gt;</code></li>
-  <li><code>&lt;div class=&quot;row&quot;&gt;Old&lt;/div&gt;</code></li>
-  <li><code>&lt;div class=&quot;row&quot;&gt;Old&lt;/div&gt;</code></li>
+  <li><code>&lt;div class=&quot;column&quot;&gt;Old&lt;/div&gt;</code></li>
+  <li><code>&lt;div class=&quot;column&quot;&gt;Old&lt;/div&gt;</code></li>
+  <li><code>&lt;div class=&quot;column&quot;&gt;Old&lt;/div&gt;</code></li>
+  <li><code>&lt;div class=&quot;column&quot;&gt;Old&lt;/div&gt;</code></li>
+  <li><code>&lt;div class=&quot;column&quot;&gt;Old&lt;/div&gt;</code></li>
 </ul>
 
 
