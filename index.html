@@ -1,102 +1,103 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="grid.css">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="grid.css" />
 
     <title>Infinity CSS Grid</title>
     <style>
-        * {box-sizing: border-box}
+      * {
+        box-sizing: border-box;
+      }
 
-        body {
-            margin: 0;
-            font-size: 17px;
-            background-color: #333;
-            font-family: Helvetica, Arial, sans-serif;
-        }
-        h1 {
-            font-size: 32px;
-            font-family: "HelveticaNeueThin", "HelveticaNeue-Thin", "Helvetica Neue Thin", Arial, sans-serif;
-            font-weight: 200;
-            font-stretch: normal;
+      body {
+        margin: 0;
+        font-size: 17px;
+        background-color: #333;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+      h1 {
+        font-size: 32px;
+        font-family: 'HelveticaNeueThin', 'HelveticaNeue-Thin', 'Helvetica Neue Thin', Arial,
+          sans-serif;
+        font-weight: 200;
+        font-stretch: normal;
+      }
+      a {
+        color: #fff;
+      }
 
-        }
-        a {color:#fff}
+      #main {
+        margin: 0 auto;
+        width: 80%;
+        padding: 8px;
+        background-color: #fff;
+      }
 
-        #main{
-          margin: 0 auto; width: 80%; padding: 8px;
-          background-color: #fff;
-        }
-
-
-
-
-        .column,.merge2,.merge3 {
-
-            color: #fff;
-            background-color: #00bbeb;
-            padding: 15px;
-            margin: 10px 8px 10px 8px;
-            text-align: center;
-        }
-
-
+      .column,
+      .merge2,
+      .merge3 {
+        color: #fff;
+        background-color: #00bbeb;
+        padding: 15px;
+        margin: 10px 8px 10px 8px;
+        text-align: center;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
-
-<div id="main">
-        <div class="row">
-          <div class="column" style="border:0; background:none" ><img src="infinity.svg" style="width:600px" /></div>
+  <body>
+    <div id="main">
+      <div class="row">
+        <div class="column" style="border:0; background:none">
+          <img src="infinity.svg" style="width:600px" />
         </div>
+      </div>
 
-        <div class="row">
-        <div class="column"> <h1>Infinity CSS Grid</h1></div>
-        </div>
+      <div class="row">
+        <div class="column"><h1>Infinity CSS Grid</h1></div>
+      </div>
 
-        <div class="row">
-        <div class="column"> <p> Fluid Flex Solution for making infinite grid columns.</p></div>
-        </div>
+      <div class="row">
+        <div class="column"><p>Fluid Flex Solution for making infinite grid columns.</p></div>
+      </div>
 
-        <div class="row">
+      <div class="row">
         <div class="column">50%</div>
         <div class="column">50%</div>
-        </div>
+      </div>
 
-        <div class="row">
+      <div class="row">
         <div class="column">33,3%</div>
         <div class="column">33,3%</div>
         <div class="column">33,3%</div>
-        </div>
+      </div>
 
-        <div class="row">
+      <div class="row">
         <div class="column">25%</div>
         <div class="column">25%</div>
         <div class="column">25%</div>
         <div class="column">25%</div>
-        </div>
+      </div>
 
-        <div class="row">
+      <div class="row">
         <div class="column">20%</div>
         <div class="column">20%</div>
         <div class="column">20%</div>
         <div class="column">20%</div>
         <div class="column">20%</div>
-        </div>
+      </div>
 
-        <div class="row">
+      <div class="row">
         <div class="column">16,66%</div>
         <div class="column">16,66%</div>
         <div class="column">16,66%</div>
         <div class="column">16,66%</div>
         <div class="column">16,66%</div>
         <div class="column">16,66%</div>
-        </div>
+      </div>
 
-        <div class="row">
+      <div class="row">
         <div class="column">12,5%</div>
         <div class="column">12,5%</div>
         <div class="column">12,5%</div>
@@ -105,10 +106,9 @@
         <div class="column">12,5%</div>
         <div class="column">12,5%</div>
         <div class="column">12,5%</div>
-        </div>
+      </div>
 
-
-        <div class="row">
+      <div class="row">
         <div class="column">1</div>
         <div class="column">1</div>
         <div class="column">1</div>
@@ -117,42 +117,44 @@
         <div class="column">1</div>
         <div class="merge2">Merge 2</div>
         <div class="column">1</div>
-        </div>
+      </div>
 
-        <div class="row">
+      <div class="row">
         <div class="merge3">Merge 3 (take 3 places)</div>
         <div class="column">1</div>
         <div class="column">1</div>
         <div class="column">1</div>
-        </div>
+      </div>
 
-        <div class="row">
+      <div class="row">
         <div class="merge4 nested row">
-          <div class="column">Nested </div>
-          <div class="column">Nested </div>
-          <div class="column">Nested  </div>
+          <div class="column">Nested</div>
+          <div class="column">Nested</div>
+          <div class="column">Nested</div>
         </div>
         <div class="column">1</div>
+      </div>
 
-        </div>
-
-        <div class="row">
+      <div class="row">
         <div class="column">Ultra minimal only 0.15 Kb</div>
         <div class="column">Fluid</div>
-        <div class="column">Just add columns into the row container </div>
+        <div class="column">Just add columns into the row container</div>
+      </div>
 
+      <div class="row">
+        <div class="column">
+          <p>
+            You can add as many columns as you like. You can merge the columns or insert columns
+            inside columns. Everything is 0.1 Kb and even works in IE10.
+          </p>
         </div>
+      </div>
 
-        <div class="row">
-        <div class="column"><p>You can add as many columns as you like. You can merge the columns or insert columns inside columns. Everything is 0.1 Kb and even works in IE10.</p></div>
+      <div class="row">
+        <div class="column">
+          <p><a href="https://github.com/vladocar/infinity-css-grid/">Learn more on Github </a></p>
         </div>
-
-        <div class="row">
-        <div class="column"><p><a href="https://github.com/vladocar/infinity-css-grid/">Learn more on Github </a></p></div>
-
-        </div>
-
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
